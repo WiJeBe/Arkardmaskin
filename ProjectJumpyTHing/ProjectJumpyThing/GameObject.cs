@@ -11,6 +11,7 @@ namespace ProjectJumpyThing.gameobjects
         //Laptop says hello
         //test again
         //Testing
+        //merger Test
         //Testing more 
         //Guess what im still testign
          //Binary is beutiful
