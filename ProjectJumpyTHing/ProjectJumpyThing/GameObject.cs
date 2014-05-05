@@ -7,6 +7,8 @@ namespace ProjectJumpyThing.gameobjects
 {
     class GameObject
     {
+
+        //Laptop says hello
         //test again
         //Testing
         //Testing more 
