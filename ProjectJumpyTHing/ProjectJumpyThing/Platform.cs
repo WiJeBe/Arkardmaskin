@@ -4,10 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 namespace ProjectJumpyThing
 {
     class Platform : MovableGameObject
     {
         public Rectangle SurfaceRectangle;
     }
+
+
+
 }

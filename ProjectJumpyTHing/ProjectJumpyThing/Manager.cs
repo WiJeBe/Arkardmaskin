@@ -24,9 +24,9 @@ namespace ProjectJumpyThing
                 {
                     (ObjectB as Platform);
                     if (
-                        (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.rectangle.Left, ObjectA.rectangle.Bottom) ||
-                        (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.rectangle.Center, ObjectA.rectangle.Bottom) ||
-                        (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.rectangle.Right, ObjectA.rectangle.Bottom)
+                        (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.collisionRectangle.Left, ObjectA.collisionRectangle.Bottom) ||
+                        (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.collisionRectangle.Center, ObjectA.collisionRectangle.Bottom) ||
+                        (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.collisionRectangle.Right, ObjectA.collisionRectangle.Bottom)
                         )
                     {
                         ObjectA.velocity.Y = 0;
