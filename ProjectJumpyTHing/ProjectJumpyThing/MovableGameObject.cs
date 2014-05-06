@@ -10,7 +10,7 @@ namespace ProjectJumpyThing
     {
        public Vector2 velocity;
        public Vector2 acceleration; 
-       public Rectangle rectangle;
+       public Rectangle collisionRectangle;
        private float gravity = 9.81f; 
 
        // thought that player class will call method when pressing buttons. and then it will move 
