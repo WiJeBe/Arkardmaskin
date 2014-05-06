@@ -24,7 +24,7 @@ namespace ProjectJumpyThing.gameobjects
 
         public abstract void Draw(SpriteBatch spritebatch)
         {
-
+            
         }
     }
 }

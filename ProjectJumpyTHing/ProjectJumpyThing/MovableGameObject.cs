@@ -9,7 +9,9 @@ namespace ProjectJumpyThing
    abstract class MovableGameObject : gameobjects.GameObject
     {
        public Vector2 velocity;
+       public Vector2 acceleration; 
        public Rectangle rectangle;
+       private float gravity = 9.81f; 
 
        // thought that player class will call method when pressing buttons. and then it will move 
        // powerups will have call move function with a bool that is always true 
@@ -18,7 +20,7 @@ namespace ProjectJumpyThing
        {
            if (up)
            {
-               position.Y += velocity.Y; 
+               position.Y -= velocity.Y; 
            }
            if (left)
            {
@@ -40,9 +42,11 @@ namespace ProjectJumpyThing
 
        }
 
-       public void Gravity()
+       public void Gravity(GameTime gameTime)
        {
-
+           acceleration.Y = gravity; 
+           velocity += acceleration * gameTime.ElapsedGameTime.Milliseconds;
+           position += velocity; 
        }
 
        public void Jump()
