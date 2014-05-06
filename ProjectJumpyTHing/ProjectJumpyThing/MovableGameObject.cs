@@ -11,9 +11,23 @@ namespace ProjectJumpyThing
        public Vector2 velocity;
        public Rectangle rectangle;
 
-       public void Move()
+       // thought that player class will call method when pressing buttons. and then it will move 
+       // powerups will have call move function with a bool that is always true 
+       // plattforms will call move but will not call gravity 
+       public void Move(bool up,bool left, bool right )
        {
-
+           if (up)
+           {
+               position.Y += velocity.Y; 
+           }
+           if (left)
+           {
+               position.X -= velocity.X;
+           }
+           if (right)
+           {
+               position.X += velocity.X;
+           }
        }
 
        public void IsHit()
