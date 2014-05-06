@@ -17,7 +17,7 @@ namespace ProjectJumpyThing.gameobjects
         public SpriteEffects spriteEffect;
         public double scale;
         public Color color; 
-        public abstract GameObject()
+        public abstract void Update()
         {
 
         }
