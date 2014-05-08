@@ -6,7 +6,7 @@ using System.Text;
 namespace ProjectJumpyThing
 {
 
-    //To.do 
+    //To-do 
     // Wait for platforms and playe rto try to manage.
     class Manager
     {
