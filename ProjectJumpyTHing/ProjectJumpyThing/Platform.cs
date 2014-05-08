@@ -10,6 +10,9 @@ namespace ProjectJumpyThing
     class Platform : MovableGameObject
     {
         public Rectangle SurfaceRectangle;
+
+        public Platform()
+        { }
     }
 
 
