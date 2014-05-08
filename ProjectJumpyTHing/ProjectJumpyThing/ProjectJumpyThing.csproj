@@ -75,6 +75,7 @@
     <Compile Include="AnimatedGameObject.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="GUI.cs" />
+    <Compile Include="LevelManager.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="MovableGameObject.cs" />
     <Compile Include="Platform.cs" />

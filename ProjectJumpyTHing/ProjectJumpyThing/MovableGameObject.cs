@@ -32,9 +32,10 @@ namespace ProjectJumpyThing
            }
        }
 
+       
        public void IsHit()
        {
-
+          
        }
 
        public override void Update()
@@ -51,7 +52,8 @@ namespace ProjectJumpyThing
 
        public void Jump()
        {
-
+           velocity.Y += 10;
+           position.Y += velocity.Y; 
        }
     }
 }
