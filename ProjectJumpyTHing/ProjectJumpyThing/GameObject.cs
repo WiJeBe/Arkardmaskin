@@ -10,6 +10,8 @@ namespace ProjectJumpyThing.gameobjects
 
     abstract class GameObject
     {
+        //Thats not good enough
+        //Swag
         public Texture2D texture;
         public Vector2 position;
         public Vector2 origin;

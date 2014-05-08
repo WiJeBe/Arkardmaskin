@@ -1,17 +1,17 @@
-﻿using Microsoft.Xna.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace ProjectJumpyThing
 {
     class AnimatedGameObject : MovableGameObject
     {
-        public int numFrames;
-        public Rectangle drawRextangle;
-        public Rectangle sourceRectangle;
-        public int currentFrame;
+        private int numFrame;
+        public Rectangle sourceRectangle; 
+        private int currentFrame;
 
         public void Animate()
         {
