@@ -19,13 +19,15 @@ namespace ProjectJumpyThing.gameobjects
         public SpriteEffects spriteEffect;
         public double scale;
         public Color color; 
-        public virtual void Update()
+        public virtual void Update(GameTime gameTime)
         {
 
         }
 
         public virtual void Draw(SpriteBatch spritebatch)
-        { }
+        { 
+            
+        }
         
             
         
