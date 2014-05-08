@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,16 +48,16 @@ namespace ProjectJumpyThing
         //kolla om gammal plattform är utanför skärm
         public bool nextPlatform()
         {
-            return true;
+                return true;
         }
 
-        public override void Update(GameTime gametime)
-        {
-            //lägg till en plattform i listan(i klassen platform?)
-            if (nextPlatform)
-            {
-                platformList.Add(x, collum, lenght);
-            }
-        }
+        //public override void Update(GameTime gametime)
+        //{
+        //    //lägg till en plattform i listan(i klassen platform?)
+        //    if (nextPlatform)
+        //    {
+        //        platformList.Add(x, collum, lenght);
+        //    }
+        //}
     }
 }
