@@ -18,14 +18,17 @@ namespace ProjectJumpyThing.gameobjects
         public bool isDead;
         public SpriteEffects spriteEffect;
         public double scale;
-        public Color color; 
+        public Color color;
+        
         public virtual void Update()
         {
 
         }
 
         public virtual void Draw(SpriteBatch spritebatch)
-        { }
+        {
+           
+        }
         
             
         
