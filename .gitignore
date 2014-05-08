@@ -154,7 +154,10 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+<<<<<<< HEAD
 ProjectJumpyTHing/ProjectJumpyThing/obj/x86/Debug/ProjectJumpyThing.csprojResolveAssemblyReference.cache
 ProjectJumpyThing.v12.suo
 *.suo
 ProjectJumpyTHing/ProjectJumpyThing/obj/x86/Debug/ProjectJumpyThing.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> 2cd5e491b476f72ab49cd12f5150837937d2dcb0
