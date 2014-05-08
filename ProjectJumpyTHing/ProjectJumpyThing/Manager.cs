@@ -22,7 +22,6 @@ namespace ProjectJumpyThing
             {
                 if (ObjectB is Platform && ObjectA.velocity.Y > 0)
                 {
-                    (ObjectB as Platform);
                     if (
                         (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.collisionRectangle.Left, ObjectA.collisionRectangle.Bottom) ||
                         (ObjectB as Platform).SurfaceRectangle.Contains(ObjectA.collisionRectangle.Center, ObjectA.collisionRectangle.Bottom) ||
@@ -30,7 +29,7 @@ namespace ProjectJumpyThing
                         )
                     {
                         ObjectA.velocity.Y = 0;
-                        ObjectA.position.X = (ObjectB as Platform).SurfaceRectangle.Top + 1;
+                        ObjectA.position.Y = (ObjectB as Platform).SurfaceRectangle.Top + 1;
                     }
                 }
                 else if (ObjectB is Player)
