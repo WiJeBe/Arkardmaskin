@@ -1,5 +1,0 @@
-C:\Users\Spellabbet\Documents\GitHub\Arkardmaskin\ProjectJumpyThing\ProjectJumpyThing\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Spellabbet\Documents\GitHub\Arkardmaskin\ProjectJumpyThing\ProjectJumpyThing\bin\x86\Debug\ProjectJumpyThing.exe
-C:\Users\Spellabbet\Documents\GitHub\Arkardmaskin\ProjectJumpyThing\ProjectJumpyThing\bin\x86\Debug\ProjectJumpyThing.pdb
-C:\Users\Spellabbet\Documents\GitHub\Arkardmaskin\ProjectJumpyThing\ProjectJumpyThing\obj\x86\Debug\ProjectJumpyThing.exe
-C:\Users\Spellabbet\Documents\GitHub\Arkardmaskin\ProjectJumpyThing\ProjectJumpyThing\obj\x86\Debug\ProjectJumpyThing.pdb
